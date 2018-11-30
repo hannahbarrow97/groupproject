@@ -1,1 +1,27 @@
-lalala
+  <style>
+header {
+  background: url("http://www.bates.edu/wordpress/files/2016/07/pattern1.jpg");
+}
+body {
+  text-align: center;
+}
+h1{
+  color: #199
+}
+img {
+  height: 200px;
+  border: thick solid black;
+}
+div {
+  margin: 10px;
+}
+.product {
+  background: lightgrey;
+}
+.about {
+  background: #199;
+}
+.contact {
+  background: grey;
+}
+  </style>
