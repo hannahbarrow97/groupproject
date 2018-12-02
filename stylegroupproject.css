@@ -1,12 +1,11 @@
   <style>
-header {
-  background: url("http://www.bates.edu/wordpress/files/2016/07/pattern1.jpg");
-}
 body {
   text-align: center;
 }
 h1{
   color: #199
+  text-align: center;
+  background: url('http://www.bates.edu/wordpress/files/2016/07/pattern1.jpg');
 }
 img {
   height: 200px;
