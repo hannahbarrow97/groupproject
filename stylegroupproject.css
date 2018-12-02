@@ -1,14 +1,16 @@
-  <style>
+header {
+  text-align: center;
+  background: url('http://www.bates.edu/wordpress/files/2016/07/pattern1.jpg');
+  background-size: cover;
+}
 body {
   text-align: center;
 }
-h1{
+h1 {
   color: #199
-  text-align: center;
-  background: url('http://www.bates.edu/wordpress/files/2016/07/pattern1.jpg');
 }
 img {
-  height: 200px;
+  height: 60px;
   border: thick solid black;
 }
 div {
@@ -23,4 +25,3 @@ div {
 .contact {
   background: grey;
 }
-  </style>
