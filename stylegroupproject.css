@@ -48,6 +48,27 @@ h2 {
   border: thick solid rgb(0,0,0,1);
   float: right;
 }
+.earr {
+  height: 150px
+}
+.earrings {
+  background: rgb(128,128,128,1);
+  margin: 5px;
+  border: thick solid rgb(0,0,0,1);
+  padding: 20px;
+}
+.necklace {
+  background: rgb(128,128,128,1);
+  margin: 5px;
+  border: thick solid rgb(0,0,0,1);
+  padding: 20px;
+}
+.bracelet {
+  background: rgb(128,128,128,1);
+  margin: 5px;
+  border: thick solid rgb(0,0,0,1);
+  padding: 20px;
+}
 input {
   display: block;
 }
