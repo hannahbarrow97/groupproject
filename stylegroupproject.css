@@ -1,27 +1,66 @@
-  <style>
 header {
-  background: url("http://www.bates.edu/wordpress/files/2016/07/pattern1.jpg");
+  text-align: center;
+  background: rgb(255,255,255,0.5);
+  background-size: cover;
+  border: thick solid rgb(255,255,255,1);
 }
 body {
+  background: url("http://www.bates.edu/wordpress/files/2016/07/pattern1.jpg");
   text-align: center;
 }
-h1{
-  color: #199
+
+h1 {
+  color: rgb(0,128,128,1);
+
 }
-img {
+.img1 {
   height: 200px;
-  border: thick solid black;
-}
-div {
+  border: thick solid rgb(128,128,128,1);
   margin: 10px;
 }
+.img2 {
+  height: 200px;
+  border: thick solid grey;
+  margin: 10px;
+
+h2 {
+  color: rgb(0,128,128,1);
+}
+div {
+  background: rgb(0,0,0,1);
+}
 .product {
-  background: lightgrey;
+  background: rgb(128,128,128,1);
+  margin: 10px;
+  border: thick solid rgb(0,0,0,1);
+  padding: 20px;
 }
 .about {
-  background: #199;
+  background: rgb(192,192,192,1;
+  margin: 10px;
+  border: thick solid rgb(0,0,0,1);
+  padding: 20px;
+  float: left;
 }
 .contact {
   background: grey;
+  padding: 20px;
+  margin: 10px;
+  border: thick solid rgb(0,0,0,1);
+  float: right;
 }
-  </style>
+input {
+  display: block;
+}
+.email {
+  height: 20px;
+  width: 300px;
+}
+.enquiry {
+  height: 100px;
+  width: 300px;
+}
+.button {
+  height: 20px;
+  width: 70px;
+}
