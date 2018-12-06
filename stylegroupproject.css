@@ -1,17 +1,22 @@
 header {
   text-align: center;
-  background: rgb(255,255,255,0.5);
+  font-family: verdana, sans-serif;
+  background: rgb(255,255,255,0.7);
   background-size: cover;
   border: thick solid rgb(255,255,255,1);
+  margin: 10px;
+  padding: 20px;
 }
 body {
   background: url("http://www.bates.edu/wordpress/files/2016/07/pattern1.jpg");
   text-align: center;
+  font-family: verdana, sans-serif;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 h1 {
   color: rgb(0,128,128,1);
-
 }
 .img1 {
   height: 200px;
@@ -19,45 +24,53 @@ h1 {
   margin: 10px;
 }
 .img2 {
-  height: 200px;
+  height: 225px;
   border: thick solid grey;
   margin: 10px;
-
+}
 h2 {
   color: rgb(0,128,128,1);
 }
 .product {
-  background: rgb(128,128,128,1);
+  background: rgb(192,192,192,0.8);
   margin: 10px;
-  border: thick solid rgb(0,0,0,1);
+  border: thick solid rgb(255,255,255,1);
   padding: 20px;
 }
 .about {
-  background: rgb(192,192,192,1;
-  margin: 10px;
-  border: thick solid rgb(0,0,0,1);
+  height: 250px;
+  width: 310px;
+  color: rgb(255,255,255,1);
+  background: rgb(0,0,0,0.3);
   padding: 20px;
+  margin: 10px;
+  border: thick solid rgb(192,192,192,1);
   float: left;
 }
 .contact {
-  background: grey;
+  height: 250px;
+  width: 300px;
+  color: rgb(255,255,255,1);
+  background: rgb(0,0,0,0.5);
   padding: 20px;
   margin: 10px;
-  border: thick solid rgb(0,0,0,1);
+  border: thick solid rgb(192,192,192,1);
   float: right;
 }
 input {
   display: block;
 }
-.email {
-  height: 20px;
-  width: 300px;
-}
 .enquiry {
   height: 100px;
   width: 300px;
 }
-.button {
+.email {
   height: 20px;
-  width: 70px;
+  width: 220px;
+  float: left;
+}
+.button {
+  height: 25px;
+  width: 76px;
+  float: right;
 }
