@@ -89,6 +89,11 @@ input {
   width: 76px;
   float: right;
   cursor: pointer;
+  color: rgb(255,255,255,1);
+  background-color: rgb(0,128,128,1);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px rgb(155,155,155,1);
 }
 
 .earr {
@@ -127,17 +132,17 @@ input {
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #fff;
+  color: rgb(255,255,255,1);
   background-color: rgb(0,128,128,1);
   border: none;
   border-radius: 15px;
-  box-shadow: 0 4px #999;
+  box-shadow: 0 4px rgb(153,153,153,1);
 }
 
 button:hover {background-color: rgb(95,154,167)}
 
 button:active {
   background-color: rgb(68,105,114);
-  box-shadow: 0 2px #666;
+  box-shadow: 0 2px rgb(102,102,102,1);
   transform: translateY(4px);
 }
