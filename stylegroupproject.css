@@ -4,8 +4,17 @@ header {
   background: rgb(255,255,255,0.7);
   background-size: cover;
   border: thick solid rgb(255,255,255,1);
-  margin: 10px;
+  margin: 10px 10px 20px 10px;
   padding: 20px;
+  height: 150px;
+}
+.left {
+  float: left;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.right {
+  float: right;
 }
 body {
   background: url("http://www.bates.edu/wordpress/files/2016/07/pattern1.jpg");
@@ -17,11 +26,12 @@ body {
 
 h1 {
   color: rgb(0,128,128,1);
+  font-size: 40px;
 }
 .img1 {
-  height: 200px;
+  height: 145px;
   border: thick solid rgb(128,128,128,1);
-  margin: 10px;
+  margin: 5,5,5,5px;
 }
 .img2 {
   height: 225px;
@@ -29,7 +39,9 @@ h1 {
   margin: 10px;
 }
 h2 {
-  color: rgb(0,128,128,0.5);
+  color: rgb(0,128,128,1);
+  font-size: 30px;
+  height: 30px;
 }
 .product {
   background: rgb(192,192,192,0.8);
@@ -69,7 +81,7 @@ input {
   width: 220px;
   float: left;
 }
-.button {
+button {
   height: 25px;
   width: 76px;
   float: right;

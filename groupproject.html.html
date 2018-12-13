@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title>Brand name</title>
 <link rel="stylesheet" href="stylegroupproject.css">
@@ -6,8 +7,12 @@
 <body>
 
 <header>
+  <div class="left">
   <h1>HEADER</h1>
+</div>
+<div class="right">
   <img class="img1" src="logo.jpg">
+</div>
 </header>
 
 <div class="product">
@@ -29,9 +34,19 @@
 <div class="contact">
   <h4>Contact</h4>
   <p>Submit an enquiry</p>
-  <input class="enquiry" type="email" placeholder="Enquiry">
-  <input class="email" type="email" placeholder="Your email">
-  <input class="button" type="submit">
+  <input class="enquiry" id="myInput" type="email" placeholder="Enquiry">
+  <input class="email" id="myInput2" type="email" placeholder="Your email">
+  <button onclick="message();">submit</button>
+
 </div>
+<script>
+
+function message(){
+  document.getElementById('myInput').value = '';
+  document.getElementById('myInput2').value = '';
+  alert("message sent")
+}
+</script>
 
 </body>
+</html>
