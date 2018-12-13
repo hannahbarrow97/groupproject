@@ -84,21 +84,12 @@ input {
   width: 220px;
   float: left;
 }
-button {
+.submit {
   height: 25px;
   width: 76px;
   float: right;
+  cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
 
 .earr {
   height: 150px;
@@ -107,24 +98,27 @@ button {
   border-width: 2px;
 }
 .earrings {
+  height: 350px;
   background: rgb(200,200,200,0.6);
-  margin: 0px 10px 0px 10px;
+  margin: 10px;
   border: thick solid rgb(167,167,167,0.9);
   padding: 0px 5px 0px 5px;
 }
 .necklace {
+  height: 350px;
   background: rgb(155,155,155,0.7);
-  margin: 5px;
+  margin: 10px;
   border: thick solid rgb(67,67,67,0.3);
   padding: 5px;
 }
 .bracelet {
+  height: 350px;
   background: rgb(200,200,200,0.5);
-  margin: 5px;
+  margin: 10px;
   border: thick solid rgb(167,167,167,0.8);
   padding: 5px;
 }
-button{
+.like {
   margin: 0px 50px 0px 50px;
   display: inline-block;
   padding: 10px 15px;
